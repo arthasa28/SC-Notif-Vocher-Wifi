@@ -8,6 +8,9 @@ Cara yang kedua anda bisa mencari di menu pencarian @get_id_bot lalu klik tombol
 Untuk mengecek Bot mengirim pesan anda dapat menggunakan alamat dibawah ini di browser
 https://api.telegram.org/bot(token anda)/sendMessage?chat_id=(chat id anda)&text=Ping Hotspot
 
+Paste script di mikrotik, yaitu di menu
+IP -> Hospot -> User Profiles -> ( Pilih Profile yang akan di tambah script )
+
 ## SC - ON Login
 ```bash
 Script Via Telegram
@@ -32,4 +35,3 @@ Script Via Telegram
 ```bash
 :tool fetch url="https://api.telegram.org/bot<API TOKEN BOT TELE>/sendMessage?chat_id=<CHAT ID>&text=<<==INFO LOGOUT==>>%0A- Kode Voucher : $user%0A- IP Address : $address" keep-result=no;
 ```
-
